@@ -208,7 +208,7 @@
             // aboutMenuItem
             // 
             aboutMenuItem.Name = "aboutMenuItem";
-            aboutMenuItem.Size = new Size(180, 22);
+            aboutMenuItem.Size = new Size(116, 22);
             aboutMenuItem.Text = "&About...";
             aboutMenuItem.Click += aboutMenuItem_Click;
             // 
@@ -222,7 +222,7 @@
             Controls.Add(menuStrip);
             MainMenuStrip = menuStrip;
             Name = "MainForm";
-            Text = "Сортировка Массивов ";
+            Text = "SortMark";
             statusStrip.ResumeLayout(false);
             statusStrip.PerformLayout();
             contentPanel.ResumeLayout(false);
